@@ -7,5 +7,14 @@
     "github_profile_url": "https://github.com/dsawithaditi",
     "project_netlify_link": "https://aditi-profile-card.netlify.app/",
     "tags": ["minimalist", "animation", "light-theme"]
+  },
+  {
+    "name": "Md Aarzoo Islam",
+    "occupation": "Full-Stack Web Developer | Founder of dgisight",
+    "place": "Beldanga, India",
+    "bio": "Building beautiful things for the web!",
+    "github_profile_url": "https://github.com/withaarzoo",
+    "project_netlify_link": "https://aarzoo-profile-card.netlify.app/",
+    "tags": ["minimalist", "animation", "dark-theme"]
   }
 ]
