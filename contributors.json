@@ -43,5 +43,14 @@
     "github_profile_url": "https://github.com/rumi20",
     "project_netlify_link": "https://rumi-profile-card.netlify.app/",
     "tags": ["animated", "light-theme"]
+  },
+  {
+    "name": "Soumik Nandan",
+    "occupation": "SEO Specialist",
+    "place": "Beldanga, India",
+    "bio": "SEO Specialist with 3 years of experience driving organic growth and improving search visibility. Focused on the technical backbone of SEO, data analysis, and content strategy to enhance website performance and user experience.",
+    "github_profile_url": "https://github.com/seobysoumik",
+    "project_netlify_link": "https://soumik-profile-card.netlify.app/",
+    "tags": ["animated", "light-theme"]
   }
 ]
