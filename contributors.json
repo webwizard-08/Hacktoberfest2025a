@@ -25,5 +25,14 @@
     "github_profile_url": "https://github.com/nusrat80",
     "project_netlify_link": "https://nusrat-profile-card.netlify.app/",
     "tags": ["minimalist", "light-theme"]
+  },
+  {
+    "name": "Rakesh Sharma",
+    "occupation": "Frontend Web Developer",
+    "place": "Delhi, India",
+    "bio": "As a Software Engineer at Paytm, I'm on a mission to simplify financial services for everyone. I architect and build the technology that brings seamless payments, banking, and commerce to the fingertips of millions, driving true financial inclusion in India.",
+    "github_profile_url": "https://github.com/rakesh-dev-07",
+    "project_netlify_link": "https://rakesh-profile-card.netlify.app/",
+    "tags": ["minimalist", "light-theme"]
   }
 ]

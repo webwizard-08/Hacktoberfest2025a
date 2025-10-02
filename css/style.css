@@ -2,8 +2,8 @@
     --dark-bg: #111827;
     --card-bg: rgba(42, 53, 71, 0.5);
     --border-color: rgba(255, 255, 255, 0.1);
-    --text-white: #F9FAFB;
-    --text-muted: #9CA3AF;
+    --text-white: #f9fafb;
+    --text-muted: #9ca3af;
     --accent-primary: #8b5cf6;
     --accent-secondary: #a78bfa;
     --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -30,7 +30,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(ellipse at top, #6366f130, transparent), radial-gradient(ellipse at bottom, #a855f730, transparent);
+    background:
+        radial-gradient(ellipse at top, #6366f130, transparent),
+        radial-gradient(ellipse at bottom, #a855f730, transparent);
     z-index: -1;
     animation: pulse 10s infinite alternate;
 }
@@ -103,7 +105,9 @@ body {
     display: flex;
     align-items: center;
     gap: 8px;
-    transition: transform 0.3s, background-color 0.3s;
+    transition:
+        transform 0.3s,
+        background-color 0.3s;
 }
 
 .nav-cta:hover {
@@ -138,7 +142,9 @@ body {
     text-decoration: none;
     padding: 16px 36px;
     border-radius: 50px;
-    transition: transform 0.3s, background-color 0.3s;
+    transition:
+        transform 0.3s,
+        background-color 0.3s;
 }
 
 .hero-cta:hover {
@@ -162,14 +168,16 @@ body {
 
 #search-input {
     width: 100%;
-    background-color: #1F2937;
+    background-color: #1f2937;
     color: var(--text-white);
     border: 1px solid var(--border-color);
     border-radius: 16px;
     padding: 16px 20px 16px 50px;
     font-size: 1rem;
     outline: none;
-    transition: border-color 0.3s, box-shadow 0.3s;
+    transition:
+        border-color 0.3s,
+        box-shadow 0.3s;
 }
 
 #search-input:focus {
@@ -196,7 +204,9 @@ body {
     opacity: 0;
     transform: translateY(20px);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
 }
 
 .contributor-card.hidden {
@@ -286,6 +296,10 @@ body {
     font-size: 0.9rem;
     color: var(--text-muted);
     line-height: 1.6;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 
 .tags-container {
@@ -340,7 +354,9 @@ body {
     justify-content: center;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.3s, visibility 0.3s;
+    transition:
+        opacity 0.3s,
+        visibility 0.3s;
     z-index: 2000;
     padding: 20px;
 }
@@ -351,7 +367,7 @@ body {
 }
 
 .modal-content {
-    background: #1F2937;
+    background: #1f2937;
     border-radius: 16px;
     width: 90%;
     max-width: 800px;
@@ -446,7 +462,7 @@ body {
 .device-controls {
     display: flex;
     gap: 8px;
-    background: #1F2937;
+    background: #1f2937;
     border-radius: 10px;
     padding: 4px;
 }
@@ -458,7 +474,9 @@ body {
     padding: 8px 12px;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
+    transition:
+        background-color 0.3s,
+        color 0.3s;
 }
 
 .device-controls button.active {
@@ -489,7 +507,9 @@ body {
     border-radius: 8px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     border: 4px solid #333;
-    transition: width 0.4s ease, height 0.4s ease;
+    transition:
+        width 0.4s ease,
+        height 0.4s ease;
 }
 
 .preview-iframe-container.view-desktop #preview-iframe {
