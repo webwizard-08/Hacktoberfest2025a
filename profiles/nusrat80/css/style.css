@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f4f7f6;
+    font-family: "Poppins", sans-serif;
+    color: #333;
+    perspective: 1000px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.profile-card {
+    width: 320px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 40px 30px;
+    transition:
+        transform 0.2s ease-out,
+        box-shadow 0.2s ease-out;
+    animation: fadeIn 0.8s ease-out forwards;
+    transform-style: preserve-3d;
+}
+
+.profile-card:hover {
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15);
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #eceff1;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.title {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #7f8c8d;
+    margin-bottom: 25px;
+}
+
+.social-links {
+    margin-bottom: 25px;
+}
+
+.social-links a {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #2980b9;
+}
+
+.projects-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 400;
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.projects-button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
