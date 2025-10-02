@@ -34,5 +34,14 @@
     "github_profile_url": "https://github.com/rakesh-dev-07",
     "project_netlify_link": "https://rakesh-profile-card.netlify.app/",
     "tags": ["minimalist", "light-theme"]
+  },
+  {
+    "name": "Ritwik Tat",
+    "occupation": "Full Stack Developer",
+    "place": "Maharashtra",
+    "bio": "Passionate about crafting seamless web experiences and turning ideas into reality through code.",
+    "github_profile_url":"https://github.com/ritwik1709",
+    "project_netlify_link": "https://ritwik-profile-card.netlify.app/",
+    "tags":["minimalist","animation","dark-theme"]
   }
 ]
