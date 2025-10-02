@@ -34,5 +34,14 @@
     "github_profile_url": "https://github.com/rakesh-dev-07",
     "project_netlify_link": "https://rakesh-profile-card.netlify.app/",
     "tags": ["minimalist", "light-theme"]
+  },
+  {
+    "name": "rumi",
+    "occupation": "Frontend Web Developer",
+    "place": "Mumbai, India",
+    "bio": "passionate about crafting clean code, scalable systems, and intuitive user experiences.",
+    "github_profile_url": "https://github.com/rumi20",
+    "project_netlify_link": "https://rumi-profile-card.netlify.app/",
+    "tags": ["animated", "light-theme"]
   }
 ]
